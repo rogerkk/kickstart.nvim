@@ -20,6 +20,8 @@ vim.g.ale_fix_on_save  = 1
 
 return {
     {
-        "dense-analysis/ale",
+        "rogerkk/ale",
+        branch = 'patch-1'
     },
+
 }
