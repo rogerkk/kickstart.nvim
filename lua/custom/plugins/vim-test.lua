@@ -6,7 +6,7 @@ vim.keymap.set('n', '<leader>l', 'TestLast<CR>', { desc='Run [l]ast test' })
 vim.keymap.set('n', '<leader>g', 'TestVisit<CR>', {})
 
 vim.g['test#strategy'] ='neovim'
-vim.g['test#ruby#rspec#executable'] ='docker exec -t -eRAILS_ENV=test legelisten_web_1 bundle exec rspec'
+vim.g['test#ruby#rspec#executable'] ='docker exec -t -eRAILS_ENV=test legelisten-web-1 bundle exec rspec'
 
 return {
   'vim-test/vim-test'
