@@ -1,4 +1,4 @@
-vim.keymap.set('n', '-', ':Neotree toggle<CR>', { desc='Open Neotree' })
+vim.keymap.set('n', '-', ':Neotree toggle reveal<CR>', { desc='Open Neotree' })
 
 vim.cmd([[ let g:neo_tree_remove_legacy_commands = 1 ]])
 
