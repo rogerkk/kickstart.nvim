@@ -1,3 +1,5 @@
+-- Ruby LSP client setup
+-- Note: This requires the ruby-lsp gem (lsp server) to be installed.
 return {
   -- Utilize nvim-lspconfig for simple basic setup
   require'lspconfig'.ruby_lsp.setup{
